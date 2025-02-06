@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>824</width>
+    <height>612</height>
+   </rect>
+  </property>
+  <property name="focusPolicy">
+   <enum>Qt::FocusPolicy::StrongFocus</enum>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::ContextMenuPolicy::NoContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>Examer Admin Panel</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>801</width>
+      <height>521</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Shape::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Shadow::Raised</enum>
+    </property>
+    <widget class="QTableView" name="tableView">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>781</width>
+       <height>501</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>801</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Shape::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Shadow::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="load_test">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>101</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    /* Стиль обычного состояния */
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #4287f5, stop:1 #1e6ae8);
+    border: 1px solid #1e6ae8;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+QPushButton:hover {
+    /* Стиль при наведении мыши */
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #63a3ff, stop:1 #4287f5);
+    border: 1px solid #4287f5;
+}
+
+QPushButton:pressed {
+    /* Стиль при нажатии */
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #333333, stop:1 #555555);
+    border: 1px solid #333333;
+}</string>
+     </property>
+     <property name="text">
+      <string>Запутить тест </string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="settings_button">
+     <property name="geometry">
+      <rect>
+       <x>620</x>
+       <y>20</y>
+       <width>101</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    /* Стиль обычного состояния */
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #4287f5, stop:1 #1e6ae8);
+    border: 1px solid #1e6ae8;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+QPushButton:hover {
+    /* Стиль при наведении мыши */
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #63a3ff, stop:1 #4287f5);
+    border: 1px solid #4287f5;
+}
+
+QPushButton:pressed {
+    /* Стиль при нажатии */
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #333333, stop:1 #555555);
+    border: 1px solid #333333;
+}</string>
+     </property>
+     <property name="text">
+      <string>Настройки</string>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frame_3">
+     <property name="geometry">
+      <rect>
+       <x>729</x>
+       <y>0</y>
+       <width>71</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Shape::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Shadow::Raised</enum>
+     </property>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>61</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="res.qrc">:/newPrefix/Ресурс 2@0.5x.png</pixmap>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="save_table">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>20</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    /* Стиль обычного состояния */
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #4287f5, stop:1 #1e6ae8);
+    border: 1px solid #1e6ae8;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+QPushButton:hover {
+    /* Стиль при наведении мыши */
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #63a3ff, stop:1 #4287f5);
+    border: 1px solid #4287f5;
+}
+
+QPushButton:pressed {
+    /* Стиль при нажатии */
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #333333, stop:1 #555555);
+    border: 1px solid #333333;
+}</string>
+     </property>
+     <property name="text">
+      <string>Сохранить в *.	XLS</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="res2.qrc"/>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

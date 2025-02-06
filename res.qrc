@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>icons/clock.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>Ресурс 2@0.5x.png</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,27 @@
+{
+    "test_name": "Тест по матеше",
+    "file_name": "math.json",
+    "timer": 5,
+    "questions": [
+        {
+            "question_name": "Первыjjjjй вопрос",
+            "question_text": "Какой год был объявлен Годом компьютера?",
+            "type": "radio",
+            "options": ["1980", "1981", "1982", "1983"],
+            "correct_answer": "1982"
+        },
+        {
+            "question_name": "Второй вопрос",
+            "question_text": "Выберите все языки программирования:",
+            "type": "checkbox",
+            "options": ["Python", "Java", "C++", "HTML"],
+            "correct_answers": ["Python", "Java", "C++"]
+        },
+        {
+            "question_name": "Третий вопрос",
+            "question_text": "Что такое API?",
+            "type": "text",
+            "correct_answer": "Интерфейс программного обеспечения"
+        }
+    ]
+}
