@@ -5,33 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2dbe5095-08a5-40d9-bbf2-6b9af0a17f92" name="Changes" comment="files">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Examer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examer_ap.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/history.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icons/clock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/math.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res.qrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res2.qrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings_ui.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/signup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/signup.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui_main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui_main2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui_signup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled_2.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user_data.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ресурс 2@0.5x.png" afterDir="false" />
+      <changelist_data name="uksu5" email="azazfakl32@gmail.com" automatic="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +20,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="uksu5 &lt;azazfakl32@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
@@ -140,6 +119,31 @@
       <option name="presentableId" value="Default" />
       <updated>1736950827500</updated>
     </task>
+    <task id="LOCAL-00001" summary="files">
+      <option name="closed" value="true" />
+      <created>1738854335368</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738854335368</updated>
+    </task>
+    <task id="LOCAL-00002" summary="files">
+      <option name="closed" value="true" />
+      <created>1738854375381</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738854375381</updated>
+    </task>
+    <task id="LOCAL-00003" summary="files">
+      <option name="closed" value="true" />
+      <created>1738854401964</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738854401964</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
